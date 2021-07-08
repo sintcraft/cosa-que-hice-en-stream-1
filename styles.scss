@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #3f3f3f;
+}
+nav{
+    width: 100%;
+    height: 45px;
+}
+nav ul{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+li{
+    list-style: none;
+    background: #00aae4;
+    transition: 0.5s;
+}
+li:hover{
+    list-style: none;
+    background: #0077e4;
+}
+a{
+    text-decoration: none;
+    font-family: 'Ubuntu';
+    color: #fff;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+}
+li div{
+    width: 100%;
+    height: 100%;
+}
+li div input{
+    height: 60%;
+    position: relative;
+    top: 15%;
+    left: 20%;
+    width: 70%;
+}
+li div p{
+    display: inline;
+    position: relative;
+    left: 20%;
+    font-size: 20px;
+    top: 20%;
+}
+.conteiner{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.post{
+    width: 100%;
+    background: #f4f4f4;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 7px;
+}
+.post img{
+    border-radius: 50%;
+    width: 50px;
+    margin: 0;
+    border: #000 solid 1px;
+    margin-right: 10px;
+}
+.post h3{
+    display: inline;
+    font-family: 'Open Sans';
+    position: relative;
+    font-size: 30px;
+    bottom: 15px;
+}
+.p1{
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #fff;
+}
+.p1 img{
+    width: 75%;
+}
+.p1 div h3{
+    font-size: 40px;
+    font-family: 'Open Sans';
+    color: #0474dd;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+.p1 div p{
+    font-size: 20px;
+    font-family: 'Ubuntu';
+    width: 60%;
+    text-align: center;
+    position: relative;
+    top: 110px;
+    left: 20%;
+}
+.p2{
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #00e4aa;
+}
+.p2 img{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    height: 400px;
+}
+.p2 div h3{
+    font-size: 40px;
+    font-family: 'Open Sans';
+    color: #0474dd;
+    text-align: center;
+    position: relative;
+    top: 130px;
+}
+.p2 div p{
+    font-size: 20px;
+    font-family: 'Ubuntu';
+    width: 60%;
+    text-align: center;
+    position: relative;
+    top: 140px;
+    left: 20%;
+}
